@@ -64,16 +64,19 @@ nestjs-todo/
 ### Backend Setup (nestjs-todo)
 
 1. Navigate to the backend directory:
+
    ```bash
    cd nestjs-todo
    ```
 
 2. Install dependencies:
+
    ```bash
    npm install
    ```
 
 3. Create a `.env` file:
+
    ```
    DB_HOST=localhost
    DB_PORT=5432
@@ -84,15 +87,17 @@ nestjs-todo/
    ```
 
 4. Initialize the database:
+
    ```bash
    npm run db:init
    ```
 
 5. Start the backend server:
+
    ```bash
    # Development
    npm run start:dev
-   
+
    # Production
    npm run build
    npm run start:prod
@@ -103,16 +108,19 @@ The API will be available at `http://localhost:3001`.
 ### Frontend Setup (Todo-App)
 
 1. Navigate to the frontend directory:
+
    ```bash
    cd Todo-App
    ```
 
 2. Install dependencies:
+
    ```bash
    npm install
    ```
 
 3. Start the development server:
+
    ```bash
    npm run dev
    ```
@@ -128,10 +136,12 @@ The application will be available at `http://localhost:3000`.
 ## API Endpoints
 
 ### Authentication
+
 - `POST /auth/login` - Login with email and password
 - `POST /users` - Register a new user
 
 ### Todo Management
+
 - `GET /todo` - Get all todos for current user
 - `GET /todo/:id` - Get a specific todo
 - `POST /todo` - Create a new todo
@@ -141,12 +151,18 @@ The application will be available at `http://localhost:3000`.
 ## Tech Stack
 
 ### Backend
+
 - NestJS
 - TypeORM
 - PostgreSQL
 - JWT Authentication
 
 ### Frontend
+
 - NextJS
 - Axios
 - TailwindCSS
+
+### For test in typescript folder
+
+run `npm install` and `npm run test` in typescript folder
