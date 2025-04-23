@@ -6,7 +6,7 @@ A full-stack todo application with NestJS backend and React frontend.
 
 This repository contains:
 
-- `Todo-App` - Frontend React application
+- `Todo-App` - Frontend Next application
 - `nestjs-todo` - Backend NestJS API
 
 ### Folder Convention
